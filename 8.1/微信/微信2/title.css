@@ -1,0 +1,31 @@
+#title{
+    height:40px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+#title-left{
+    width: 60px;
+    height: 40px;
+}
+#title-center{
+    flex: 1;
+    height: 40px;
+    white-space: nowrap;
+}
+#title-right{
+    width: 60px;
+    height: 40px;
+
+}
+#title-right .title-imaga{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

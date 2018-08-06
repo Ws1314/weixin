@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .head1{
+            display: inline-block;
+            /*border: 1px solid black;*/
+        }
+        .text{
+            width: 800px;
+            height: 40px;
+        }
+        .frame{
+            margin: 10px 10px 40px 40px;
+            width: 20%;
+            height: 440px;
+            /*border: 1px solid black;*/
+            display: inline-block;
+            box-shadow:0 0 10px grey;
+        }
+        .img1{
+            height: 60%;
+            background-image: url("../7.31/定位/car.png");
+            background-size: cover;
+            background-position: center;
+
+        }
+        .img2{
+            height: 60%;
+            background-image: url("imaga/2.png");
+            background-size: cover;
+            background-position: center;
+
+        }
+        .img3{
+             height: 60%;
+             background-image: url("imaga/3.png");
+             background-size: cover;
+             background-position: center;
+
+         }
+        .img4{
+              height: 60%;
+              background-image: url("imaga/4.png");
+              background-size: cover;
+              background-position: center;
+
+          }
+        .main {
+            margin: 2px 8px;
+            font-size: 25px;
+            color: gray;
+        }
+        .explain {
+            color: grey;
+            margin: 2px 8px;
+            font-size: 14px;
+         }
+        .price{
+            padding: 4px;
+            color: coral;
+        }
+        .buy{
+            line-height: 25px;
+            color: orchid;
+        }
+        .frame:hover{
+            color: #552211;
+            box-shadow:0px 0px 10px red;  /*box-shadow 属性向框添加一个或多个阴影。 shadow  阴影*/
+        }
+        .foot #bu1{
+            margin:  0 0 0 580px;
+        }
+        .last{
+            height: 40px;
+            /*border: 1px solid white;*/
+            margin: 0 0 0 50px;
+            font-size: 13px;
+        }
+        .li:hover{
+            /*box-shadow:red;*/
+            color: red;
+        }
+         .li{
+             color: grey;
+             /*list-style: none;*/
+         }
+        .li1:hover{
+            /*box-shadow:red;*/
+            color: red;
+            /*list-style: none;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="head1">
+        <img src="imaga/5.png" width="450px">
+        <input class="text" type="text"placeholder="跑车" >
+        <button>搜索</button>
+    </div>
+    <div class="head2">
+        <img src="imaga/6.png" width="400px">
+    </div>
+    <div class="frame">
+        <div class="img1"></div>
+        <div class="main" ><b>Bugatti</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$20,000,000</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img2"></div>
+        <div class="main" ><b>Benz</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$22,222,222</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img3"></div>
+        <div class="main" ><b>Ferrari</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$26,666,666</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img4"></div>
+        <div class="main" ><b>Lamborghini</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$28,888,888</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img3"></div>
+        <div class="main" ><b>Ferrari</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$26,666,666</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img4"></div>
+        <div class="main" ><b>Lamborghini</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$28,888,888</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img1"></div>
+        <div class="main" ><b>Bugatti</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$20,000,000</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img2"></div>
+        <div class="main" ><b>Benz</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$22,222,222</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="buy">
+        月销0辆
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="加入购物车" >
+        <input type="button" value="购买" >
+    </div>
+    </div>
+    <div class="frame">
+        <div class="img2"></div>
+        <div class="main" ><b>Benz</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$22,222,222</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img3"></div>
+        <div class="main" ><b>Ferrari</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$26,666,666</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img4"></div>
+        <div class="main" ><b>Lamborghini</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$28,888,888</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="frame">
+        <div class="img3"></div>
+        <div class="main" ><b>Ferrari</b></div>
+        <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+        <div class="price" align="right" style="font-size: 18px">$26,666,666</div>
+        <hr>
+        <div class="buy">
+            月销0辆
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="加入购物车" >
+            <input type="button" value="购买" >
+        </div>
+    </div>
+    <div class="foot">
+        <button id="bu1">上一页</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>下一页</button>
+    </div>
+    <hr>
+    <div class="last">
+        <a class="li1">关于淘宝&nbsp;&nbsp;</a>
+        <a class="li1">合作伙伴&nbsp;&nbsp;</a>
+        <a class="li1">营销中心&nbsp;&nbsp;</a>
+        <a class="li1">廉政举报&nbsp;&nbsp;</a>
+        <a class="li1">联系客服&nbsp;&nbsp;</a>
+        <a class="li1">开放平台&nbsp;&nbsp;</a>
+        <a class="li1">诚征英才&nbsp;&nbsp;</a>
+        <a class="li1">联系我们&nbsp;&nbsp;</a>
+        <a class="li1">网站地图&nbsp;&nbsp;</a>
+        <a class="li1">法律声明&nbsp;&nbsp;</a>
+        <a style="color: gray; font-size: 10px;">© 2003-2016 Taobao.com 版权所有</a><br>
+        <a style="color: grey;">网络文化经营许可证&nbsp;: </a>
+        <a class="li" >浙网文[2013]0268-027号</a>
+        <a style="color: grey;">&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：</a>
+        <a class="li"  >浙B2-20080224-1</a>
+        <a style="color: grey;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息网络传播视听节目许可证：1109364号| 互联网违法和不良信息举报电话:0571-81683755 blxx@list.alibaba-inc.com</a>
+    </div>
+
+</body>
+</html>

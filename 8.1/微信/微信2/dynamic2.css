@@ -1,0 +1,103 @@
+#dynamic-2{
+    /*height:300px;*/
+    width: 100%;
+
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#search-area{
+    height: 52px;
+    background-color:whitesmoke;
+}
+#search{
+    height: 32px;
+    width: 96%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow:0 0 2px gray;
+    color: #bfbfbf;
+}
+#search-radio{
+    height: 20px;
+    width: 20px;
+    margin-left: -25px;
+    background-image: url("../微信1/img/4.png");
+}
+/* 搜索框结束*/
+.chat-item{
+    height: 60px;
+    width: 95%;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: start;
+    /*border-bottom: 1px grey;*/
+}
+.item-left{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/新的朋友.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-1{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/群聊.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-2{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/标签.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-3{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/公众号.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-4{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/tx2.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-5{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/ql.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-6{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/tx3.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}
+.item-left-7{
+    height: 38px;
+    width: 38px;
+    background-image: url("../微信1/img/tx4.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+}

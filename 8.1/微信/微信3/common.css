@@ -1,0 +1,22 @@
+.border{
+    border: 1px solid red;
+}
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border-item{
+    border-bottom: 1px solid lightgray;
+    /*opacity: 0.5;*/
+}
+.lianxiren{
+    font-size: 12px;
+    color: gray;
+    height: 20px;
+    background-color: whitesmoke;
+    line-height: 20px;
+}
+.border-top{
+    border-top: 1px solid lightgray;
+}

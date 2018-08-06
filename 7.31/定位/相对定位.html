@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .frame{
+            margin: 10px 10px 40px 40px;
+            width: 20%;
+            height: 440px;
+            /*border: 1px solid black;*/
+            display: inline-block;
+            box-shadow:0 0 10px grey;
+        }
+        .img1{
+            height: 60%;
+            background-image: url("car.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .buy{
+            line-height: 25px;
+            color: orchid;
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+    <div class="img1"></div>
+    <div class="main" ><b>Bugatti</b></div>
+    <div class="explain">Bugatti war ein Automobilhersteller in Molsheim im Elsass. Gründer war Ettore Bugatti. Die Produktion lief von 1909 bis 1963.</div>
+    <div class="price" align="right" style="font-size: 18px">$20,000,000</div>
+    <hr>
+    <div class="buy">
+        月销0辆
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="加入购物车" >
+        <input type="button" value="购买" >
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+#signal{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#signal-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#signal-area{
+    width:35px;
+    height: 20px;
+    display: flex;
+    align-items:flex-end;
+    margin-left: -4px;
+    margin-bottom: 5px;
+}
+.operation{
+    /*margin-bottom: 2px;*/
+    margin-left: -4px;
+}
+.xg{
+    margin-left: 8px;
+}
+#signal .font-size{
+    font-size: 12px;
+    color:white;
+}
+#signal-area div{
+     margin-left: 1px;
+    width: 4px;
+    border-radius: 1px;
+ }
+#area-1{
+    height: 5px;
+    background-color: white;
+}
+#area-2{
+    height: 8px;
+    background-color: white;
+}
+#area-3{
+    height: 11px;
+    background-color: white;
+}
+#area-4{
+    height: 14px;
+    background-color: gray;
+}
+#signal-center{
+    width:50px;
+    height: 30px;
+}
+#signal-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signal-right div{
+    margin-right: 0px;
+}
+/*信号结束*/
+
+/*电池开始*/
+#battery{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+#battery-body{
+    width: 32px;
+    height: 13px;
+    border: 1px solid whitesmoke;
+    border-radius:1px;
+    margin-left: 8px;
+    margin-right: -4px;
+    border-radius:2px;
+}
+#battery-header{
+    width: 3px;
+    height: 8px;
+    background-color: whitesmoke;
+    margin-left: 0px;
+    border-radius: 0 1px 1px 0;
+}
+#battery-core{
+    height: 11px;
+    width: 26px;
+    background-color: lawngreen;
+    margin: 1px;
+}
+/*电池结束*/
+@keyframes charge {
+    0%{
+        width: 1px;
+        background-color: crimson;
+    }
+    20%{
+         width: 6px;
+         background-color: yellow;
+     }
+    80%{
+        width: 20px;
+        background-color: lawngreen;
+    }
+    100%{
+        width: 26px;
+        background-color: lawngreen;
+    }
+}
+.charging{
+    animation: charge 6s linear infinite;
+}
+#alarm{
+    height: 16px;
+    width: 16px;
+    background-image: url("img/1.png");
+    background-size: cover;
+    opacity: 2;
+}

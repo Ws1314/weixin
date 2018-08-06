@@ -1,0 +1,56 @@
+
+#menu4{
+    height:50px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.foot{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    /*justify-content: center;*/
+}
+.foot-top{
+    display: flex;
+    height: 34px;
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+}
+.foot-imaga{
+    height: 24px;
+    width: 24px;
+    background-image: url("../微信1/img/messa.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+.address-imaga{
+    height: 24px;
+    width: 24px;
+    background-image: url("../微信1/img/addressbook.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+.find-imaga{
+    height: 24px;
+    width: 24px;
+    background-image: url("../微信1/img/find.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+.me-imaga{
+    height: 24px;
+    width: 24px;
+    background-image: url("../微信1/img/me.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto auto;
+}
+.foot-bottom{
+    /*justify-content: center;*/
+    text-align: center;
+    margin-bottom: -2px;
+}

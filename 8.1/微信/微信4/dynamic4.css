@@ -1,0 +1,152 @@
+#dynamic-4{
+    height:300px;
+    background-color: whitesmoke;
+    flex: 1;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#find1{
+    font-size: 12px;
+    color: gray;
+    height: 16px;
+    background-color: whitesmoke;
+    line-height: 20px;
+}
+.find2{
+    font-size: 20px;
+    color: gray;
+    height: 20px;
+    background-color: whitesmoke;
+    line-height: 20px;
+}
+#ws{
+    height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#ws-left{
+    width: 65px;
+    height: 65px;
+
+}
+#ws-center
+{
+    height: 65px;
+    flex: 1;
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: column;
+
+}
+#ws-top{
+    height: 28px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+#ws-bottom{
+    height: 28px;
+    width: 100%;
+    font-size: 12px;
+}
+#ws-right{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+
+}
+#erweima{
+    height: 30px;
+    width: 30px;
+    background-image: url("../微信1/img/二维码.png");
+    background-size: cover;
+    align-items: center;
+    margin: 0 auto;
+}
+#touxiang{
+    width: 54px;
+    height: 54px;
+    background-image: url("../微信1/img/ql.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    margin-top: 5px;
+
+}
+.chat-item{
+    height: 42px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: start;
+    background-color: white;
+    /*border-bottom: 1px grey;*/
+}
+.item-left-1{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/钱包.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+.item-left-2{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/收藏.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+.item-left-3{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/相册.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+.item-left-4{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/icon_卡包.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+.item-left-5{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/表情.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+.item-left-6{
+    height: 25px;
+    width: 25px;
+    background-image: url("../微信1/img/设置.png");
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
